@@ -15,6 +15,66 @@ ul {	columns: 3;
 </style>
 
 <title>Sarbendu Rakshit</title>
+
+
+    <style>
+        /*body {font-family: Arial;}*/
+
+        /* Style the tab */
+        .tab {
+              overflow: hidden;
+              border: 1px solid #ccc;
+              background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+              background-color: inherit;
+              float: left;
+              border: none;
+              outline: none;
+              cursor: pointer;
+              padding: 14px 16px;
+              transition: 0.3s;
+              font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+              display: none;
+              padding: 6px 12px;
+              border: 1px solid #ccc;
+              border-top: none;
+              line-height: 1.8;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            line-height: 0.8;
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+
 </head>
 
 
@@ -23,31 +83,59 @@ ul {	columns: 3;
 <body>
 
 
-<img src="photo.jpg" alt="Sunflower" style="float: right; margin-right: 10px;" width="120" height="144" align="top">
-<h1 style="color:blue">Sarbendu Rakshit</h1>
+<img src="photo.jpg" alt="Sunflower" style="float: right; margin-right: 25px;" width="160" height="192" align="top">
 
+    <div class="row">
+        <div class="column" style="line-height:0.6; padding-top:30px">
+						<h1 style="color:blue">Sarbendu Rakshit</h1>
+            <p> Research Scholar</p>
+            <p> Physics & Applied Mathematics Unit</p>
+            <p> Indian Statistical Institute, Kolkata </p>
+            <p> 203, B. T. Road, Kolkata - 700108. </p>
+        </div>
 
-<br>
-<h2>​<u>About Me</u></h2>
-	<li style="font-size:20px"> I am a researcher of mathematics with a strong interest in dynamical systems and differential equations. Currently, my research deals with emergent behaviours in networked dynamical systems with special attention to their invariance and stability analysis.</li>
-	</ol>	
+        <div class="column" style="line-height:0.6; padding-top:30px">
+            <h2> Contact Information: </h2>
+				    <P>Send Email: <a href = "mailto: sarbendu.math@gmail.com">sarbendu.math@gmail.com</a></li>
+				    <P>My research profile at <a href="https://scholar.google.com/citations?user=TPSE4JEAAAAJ&hl=en">Google Scholar</a></P>
+				    <P>My research profile at <a href="https://www.researchgate.net/profile/Sarbendu-Rakshit-2">ResearchGate</a></P>
+				    <P>Connect me on <a href="https://www.linkedin.com/in/sarbendu-rakshit-782168100/">LinkedIn</a></P>
+            <P> My <a href="https://github.com/Sarbendu-Rakshit"> GitHub </a> Profile</p>
+        </div>
+    </div>
 
+    <div class="tab">
+        <button class="tablinks active" onclick="openTab(event, 'Education')" id="defaultOpen">Education</button>
+        <button class="tablinks" onclick="openTab(event, 'Research')">Research</button>
+        <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
+        <button class="tablinks" onclick="openTab(event, 'Tutorials')">Tutorials</button>
+        <!--<button class="tablinks" onclick="openTab(event, 'Notes')">Notes</button>-->
+        <button class="tablinks" onclick="openTab(event, 'OtherInterests')">Other Interests</button>
+    </div>
 
-<br>
-<h2><u>Contact Details</u></h2>
-		<li>Sarbendu Rakshit</li>
-    <li>Research Scholar</li>
-    <li>Physics & Applied Mathematics Unit</li>
-    <li>Indian Statistical Institute, Kolkata</li>
-    <li>203, B. T. Road, Kolkata - 700108</li>
-    <li>Send Email: <a href = "mailto: sarbendu.math@gmail.com">sarbendu.math@gmail.com</a></li>
-    <li>My research profile at <a href="https://scholar.google.com/citations?user=TPSE4JEAAAAJ&hl=en">Google Scholar</a></li>
-    <li>My research profile at <a href="https://www.researchgate.net/profile/Sarbendu-Rakshit-2">ResearchGate</a></li>
-    <li>Connect me on <a href="https://www.linkedin.com/in/sarbendu-rakshit-782168100/">LinkedIn</a></li>
-  </ol>
+    <div id="Education" class="tabcontent" style="display: block;">
+        <h2> <u>Academic Qualifications</u> </h2>
+        <p><b>2015–2016</b>: Pre Ph.D. Course Work from Indian Statistical Institute, Kolkata, India. 81.2%.</p>
+        <p><b>2013–2015</b>: Masters of Science in Mathematics from Siksha Bhavana, Visva-Bharati, CGPA-9.24. Elective Group: Applied Stream</p>
+    </div>
 
+    <div id="Research" class="tabcontent" style="display: none;">
 
-<br>
+            <p style="font-size:large;">  I am a researcher of mathematics with a strong interest in dynamical systems and differential equations. Currently, my research deals with emergent behaviours in networked dynamical systems with special attention to their invariance and stability analysis. </p>
+            
+<h2><u>Refereed Articles From Journals</u>:</h2>
+<ul>
+<li>Mathematical Reviews</li>
+<li>Physical Review E</li>
+<li>Journal of Physics: Complexity</li>
+<li>Chaos</li>
+<li>Nonlinear Dynamics</li>
+<li>Indian Journal of Physics</li>
+</ul>
+    </div>
+
+    <div id="Publications" class="tabcontent" style="display: none;">
+
 <h2><u>List of Journal Publications</u></h2>
 	<ol reversed>
 <li><strong>Sarbendu Rakshit</strong>, F. Parastesh, S. N. Chowdhury, S. Jafari, J. Kurths, & D. Ghosh, “Relay interlayer synchronization: Invariance and stability conditions”, <a style="color:blue">Nonlinearity</a> <strong>Accepted</strong> (2021).</li>
@@ -81,19 +169,46 @@ ul {	columns: 3;
 <ol reversed>
 <li>N. Frolov, V. Maksimenko, D. Ghosh, S. Majhi, & <strong>Sarbendu Rakshit</strong>, “Route to Coherence in a Frequency-Heterogeneous Kuramoto Network”, <strong>IEEE</strong> (2020) DOI: <a href = "https://ieeexplore.ieee.org/document/9216818">10.1109/DC-NAIR50402.2020.9216818</a>.</li>
 </ol>
+    </div>
+
+    <div id="Tutorials" class="tabcontent" style="display: none;">
+        <h2> Tutorials </h2>
+    </div>
 
 
+    <div id="OtherInterests" class="tabcontent" style="display: none;">
+        <h2> Other Interests </h2>
 
-<br>
-<h2><u>Refereed Articles From Journals</u>:</h2>
-<ul>
-<li>Mathematical Reviews</li>
-<li>Physical Review E</li>
-<li>Journal of Physics: Complexity</li>
-<li>Chaos</li>
-<li>Nonlinear Dynamics</li>
-<li>Indian Journal of Physics</li>
-</ul>
+    </div>
+
+
+    <script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+
+    function openTab(evt, tabName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    </script>
+
+
 
 
 
