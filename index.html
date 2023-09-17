@@ -74,6 +74,39 @@ ul {	columns: 3;
     </style>
 
 
+
+<style>
+.blue {	background: #347fd0;	}
+
+.news {
+    box-shadow: inset 0 -20px 50px rgba(0,0,0,0.4), 0 20px 40px rgba(0,0,0,0.5);
+       width: 1100px;
+    margin: 50px auto;
+    align: left;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 1px;
+    -webkit-user-select: none;
+}
+
+.news span {
+    float: left;
+    color: #fff;
+    padding: 15px;
+    align: left;
+    position: relative;
+    top: 10%;
+    box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4);
+    font: 20px 'Raleway', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    cursor: pointer;
+}
+
+.text1{ box-shadow:none !important;
+    width: 900px;	}
+</style>
+
 </head>
 
 
@@ -82,81 +115,133 @@ ul {	columns: 3;
 <body>
 
 
-<img src="photo.jpg" alt="Sunflower" style="float: right; margin-right: 25px;" width="160" height="192" align="top">
+<!--<img src="photo.jpg" alt="Sunflower" style="float: right; margin-right: 25px;" width="160" height="192" align="top">-->
 
-    <div class="row">
-        <div class="column" style="line-height:0.6; padding-top:30px">
-						<h1 style="color:blue">Sarbendu Rakshit</h1>
-            <p> Postdoctoral Research Scholar</p>
-            <p> Department of Mechanical Engineering</p>
-            <p> University of California at Riverside</p>
-            <p> 900 University Avenue</p>
-            <p> Riverside, California 92521, USA.</p>
-        </div>
+<div class="row">
+	<div class="column" style="line-height:0.6; padding-top:30px">
+		<h1 style="color:blue">Sarbendu Rakshit <img align="left"	src="photo.jpg" alt="Sunflower" style="float: right; margin-right: 25px;" width="160" height="192" align="top"></h1>
+		<p> Visiting Assistant Professor</p>
+		<p> Department of Mathematics</p>
+		<p> State University of New York at Buffalo</p>
+		<p> Buffalo, New York 14260, USA.</p>
+		<P> <img src="Gmail.png" width="50" height=auto>&nbsp&nbsp <a href = "mailto: sarbendu.math@gmail.com">sarbendu.math@gmail.com</a></li>
+	</div>
 
-        <div class="column" style="line-height:0.6; padding-top:30px">
-            <h2> Contact Information:</h2>
-				    <P>Send Email: <a href = "mailto: sarbendu.math@gmail.com">sarbendu.math@gmail.com</a></li>
-				    <P>My research profile at <a href="https://scholar.google.com/citations?hl=en&user=TPSE4JEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></P>
-				    <P>My research profile at <a href="https://www.researchgate.net/profile/Sarbendu-Rakshit-2">ResearchGate</a></P>
-				    <P>Connect me on <a href="https://www.linkedin.com/in/sarbendu-rakshit-782168100/">LinkedIn</a></P>
-            <P> My <a href="https://github.com/Sarbendu-Rakshit"> GitHub </a> Profile</p>
-        </div>
-    </div>
+	<div class="row" style="line-height:0.6; padding-top:0px" align="right">
+<!--            <h2> Contact Information:</h2>-->
+		<a href="https://scholar.google.com/citations?hl=en&user=TPSE4JEAAAAJ&view_op=list_works&sortby=pubdate">		<img alt="Qries" src="GoogleScholar.png" width="250" height=auto>	</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="https://www.linkedin.com/in/sarbendu-rakshit-782168100/">	<img alt="Qries" src="LinkedIn.png" width="250" height=auto>	</a>	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="https://www.researchgate.net/profile/Sarbendu-Rakshit-2">	<img alt="Qries" src="ResearchGate.png" width="250" height=auto>	</a>	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="https://github.com/Sarbendu-Rakshit">	<img alt="Qries" src="GitHub.png" width="125" height=auto>	</a>&nbsp
+<!--				    <P>My research profile at <a href="https://scholar.google.com/citations?hl=en&user=TPSE4JEAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></P>-->
+<!--				    <P>My research profile at <a href="https://www.researchgate.net/profile/Sarbendu-Rakshit-2">ResearchGate</a></P>-->
+<!--				    <P>Connect me on <a href="https://www.linkedin.com/in/sarbendu-rakshit-782168100/">LinkedIn</a></P>-->
+<!--            <P> My <a href="https://github.com/Sarbendu-Rakshit"> GitHub </a> Profile</p>-->
 
-
-    <div class="tab">
-        <button class="tablinks active" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
-        <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
-        <button class="tablinks" onclick="openTab(event, 'Research')">Research</button>
-        <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
-        <button class="tablinks" onclick="openTab(event, 'Tutorials')">Tutorials</button>
-        <!--<button class="tablinks" onclick="openTab(event, 'Notes')">Notes</button>-->
-        <button class="tablinks" onclick="openTab(event, 'OtherInterests')">Other Interests</button>
-    </div>
-    
+<div class="news blue"><span><marquee>Latest News</marquee></span><span class="text1">Researchers are invited to contribute their work to the special issue on <a href="https://www.mdpi.com/journal/mathematics/special_issues/1657ZCWY37">Dynamical Behaviors in Networked Systems: Analysis & Control</a> in the journal <i>Mathematics</i>, published by MDPI.</span></div>
+	</div>
+</div>
 
 
-    <div id="Home" class="tabcontent" style="display: block;">
-			<p>Currently, I am a Postdoctoral Researcher in the Department of Mechanical Engineering at the University of California, Riverside, working with Prof. Fabio Pasqualetti. I completed a Doctor of Philosophy degree in Applied Mathematics at the Indian Statistical Institute Kolkata, (Degree giving university: Calcutta University) in 2022 under the supervision of Prof. Dibakar Ghosh. I have completed my bachelor's degree (B.Sc.) in Mathematics in the year 2013, and master's degree (M.Sc.) in Mathematics in the year 2015 from Siksha Bhavana, Visva-Bharati, Santiniketan.</p>
-    </div>
+<div class="tab">
+	<button class="tablinks active" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+	<button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+	<button class="tablinks" onclick="openTab(event, 'Research')">Research</button>
+	<button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
+	<button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
+	<button class="tablinks" onclick="openTab(event, 'Tutorials')">Tutorials</button>
+	<!--<button class="tablinks" onclick="openTab(event, 'Notes')">Notes</button>-->
+	<button class="tablinks" onclick="openTab(event, 'OtherInterests')">Other Interests</button>
+</div>
 
 
-    <div id="Education" class="tabcontent" style="display: block;">
-        <h2> <u>Academic Qualifications</u> </h2>
-        <p><b>2015-2016</b>: Pre Ph.D. Course Work from Indian Statistical Institute, Kolkata, India. 81.2%.</p>
-        <p><b>2013-2015</b>: Masters of Science in Mathematics from Siksha Bhavana, Visva-Bharati, CGPA-9.24. Elective Group: Applied Stream</p>
-        <p><b>2010-2013</b>: Bachelor of Science in Mathematics from Siksha Bhavana, Visva-Bharati, 74.9%. First Class Honours with Distinction</p>
-        <p><b>2008-2010</b>: Pre Degree (12th Level) from Uttar Siksha Sadana, Visva-Bharati, 82.83%.</p>
-				<p><b>2006-2008</b>: School Certificate (10th Level) from Siksha Satra, Visva-Bharati, 77.78%.</p>
-				
-				<br>
-				<h2> <u>Academic Achievements</u> </h2>
-				<p><b>2019</b>: Selected for CSIR foreign Travel Grant to attain the conference “Dynamic Days Europe 2019”, which was held at Rostock, Germany, during 2-6 September 2019. Awarding Agency: CSIR</p>
-				<p><b>2015</b>: Awarded Junior Research Fellowship in Physics & Applied Mathematics in Physics & Applied Mathematics Unit of Indian Statistical Institute, Kolkata on the year 2015.</p>
-				<p><b>2015</b>: Secure Rank 2nd in order of merit among the successful students in M. Sc. Examination, 2015 in Mathematics.</p>
-				<p><b>2015</b>: Awarded Junior Research Fellowship (NET - Dec, 2014) in the subject Mathematical Science under CSIR fellowship scheme, All India Rank 45.</p>
-				<p><b>2015</b>: Qualified Graduate Aptitude Test in Engineering (GATE), on February 2015, All India Rank 11.</p>
-				<p><b>2014</b>: Selected for the NBHM postgraduate scholarship in mathematics on the year 2014-15, Awarding Agency: National Board for Higher Mathematics.</p>
-				<p><b>2013</b>: Selected for the Post-Graduate Merit Scholarship for University Rank Holders on the year 2013, Awarding Agency: University Grants Commission.</p>
-				<p><b>2013</b>: Secure Rank 2nd (Jointly) in order of merit among the successful students in B. Sc. (Honours) Examination, 2013 in Mathematics.</p>
-    </div>
 
-    <div id="Research" class="tabcontent" style="display: none;">
+<div id="Home" class="tabcontent" style="display: block;">
+<p>I am a visiting assistant professor at the Department of Mathematics at the State University of New York at Buffalo, USA from August 2023. Before that, I was a Postdoctoral Scholar in the Department of Mechanical Engineering at the University of California, Riverside from May 2022 to August 2023, working with Prof. Fabio Pasqualetti. I completed a Doctor of Philosophy degree in Applied Mathematics from the Indian Statistical Institute Kolkata, (Degree giving university: Calcutta University) in 2022 under the supervision of Prof. Dibakar Ghosh. I completed my bachelor's degree (B.Sc.) in Mathematics in the year 2013, and my master's degree (M.Sc.) in Mathematics in the year 2015 from Siksha Bhavana, Visva-Bharati, Santiniketan.</p>
 
-            <p style="font-size:large;">  I am a learner of Mathematics with a strong interest in the broad area of dynamical systems and differential equations. The broad goal of my research is to understand better the emergent behavior of networked dynamical systems, their invariance, and associated stability analysis, as well as the processes that control them. I use the theory from Algebra, Analysis, Differential, and Difference equations as my major tool. Currently, my research deals with emergent behaviors in networked dynamical systems with special attention to their invariance and stability analysis. </p>
+<h2 style="margin-bottom: 0"><u> Professional Experiences </u> </h2>
+<table class="ws-table-all notranslate">
+<tbody><tr>
+<th style="width:215px"></th>
+<th style="width:240px"></th>
+<th style="width:1200px"></th>
+</tr>
+<tr>
+<td>August 2023 - Present</td>
+<td>Visiting Assistant Professor</td>
+<td><i>Department of Mathematics, State University of New York at Buffalo</i>, USA.</td>
+</tr>
+<tr>
+<td>May 2022 - August 2023</td>
+<td>Postdoctoral Scholar</td>
+<td><i>Department of Mechanical Engineering, University of California at Riverside</i>, USA. Advisor: Prof. Fabio Pasqualetti</td>
+</tr>
+</tbody></table>
+</div>
 
-<h2><u>Research Interests</u></h2>
-<ul>
+
+<div id="Education" class="tabcontent" style="display: block;">
+	<h2> <u>Academic Qualifications</u> </h2>
+	<p><b>2015-2022</b>: Ph.D. in Applied Mathematics from Indian Statistical Institute, Kolkata, India (Degree giving university: Calcutta University).</p>
+	<p><b>2015-2016</b>: Pre Ph.D. Course Work from Indian Statistical Institute, Kolkata, India.</p>
+	<p><b>2013-2015</b>: Masters of Science in Mathematics from Siksha Bhavana, Visva-Bharati. Elective Group: Applied Stream</p>
+	<p><b>2010-2013</b>: Bachelor of Science in Mathematics from Siksha Bhavana, Visva-Bharati. First Class Honours with Distinction</p>
+	<p><b>2008-2010</b>: Pre Degree (12th Level) from Uttar Siksha Sadana, Visva-Bharati.</p>
+	<p><b>2006-2008</b>: School Certificate (10th Level) from Siksha Satra, Visva-Bharati.</p>
+
+	<br>
+		<h2> <u>Academic Achievements</u> </h2>
+			<p><b>2019</b>: Selected for CSIR foreign Travel Grant to attain the conference “Dynamic Days Europe 2019”, which was held at Rostock, Germany, during 2-6 September 2019. Awarding Agency: CSIR</p>
+			<p><b>2015</b>: Awarded Junior Research Fellowship in Physics & Applied Mathematics in Physics & Applied Mathematics Unit of Indian Statistical Institute, Kolkata on the year 2015.</p>
+			<p><b>2015</b>: Secure Rank 2nd in order of merit among the successful students in M. Sc. Examination, 2015 in Mathematics.</p>
+			<p><b>2015</b>: Awarded Junior Research Fellowship (NET - Dec, 2014) in the subject Mathematical Science under CSIR fellowship scheme, All India Rank 45.</p>
+			<p><b>2015</b>: Qualified Graduate Aptitude Test in Engineering (GATE), on February 2015, All India Rank 11.</p>
+			<p><b>2014</b>: Selected for the NBHM postgraduate scholarship in mathematics on the year 2014-15, Awarding Agency: National Board for Higher Mathematics.</p>
+			<p><b>2013</b>: Selected for the Post-Graduate Merit Scholarship for University Rank Holders on the year 2013, Awarding Agency: University Grants Commission.</p>
+			<p><b>2013</b>: Secure Rank 2nd (Jointly) in order of merit among the successful students in B. Sc. (Honours) Examination, 2013 in Mathematics.</p>
+	<br/>
+</div>
+
+
+
+
+<div id="Research" class="tabcontent" style="display: none;">
+	<p style="font-size:large;">  I am a learner of Mathematics with a strong interest in the broad area of dynamical systems and differential equations. The broad goal of my research is to understand better the emergent behavior of networked dynamical systems, their invariance, and associated stability analysis, as well as the processes that control them. I use the theory from Algebra, Analysis, Differential, and Difference equations as my major tool. Currently, my research deals with emergent behaviors in networked dynamical systems with special attention to their invariance and stability analysis. </p>
+
+	<h2 style="margin-bottom: 0"><u>Research Interests</u></h2>	Applied Dynamical Systems:
+<ul style="margin-bottom: 0">
 <li>Networked Dynamical Systems</li>
 <li>Network Control Theory</li>
 <li>Emergent Dynamical Behaviors</li>
 <li>Complex Systems</li>
 <li>Network Neuroscience</li>
 <li>Complex Network Analysis</li>
+<!--<li>Information Theory</li>-->
+<li>Stability theory</li>
+<li>Chaos theory</li>
 </ul>
-<br/>
-<h2><u>Reviewer Activity</u></h2><!-- Refereed Articles From Journals -->
+
+<h2 style="margin-bottom: 0"><u> Professional Services </u> </h2>
+<table class="ws-table-all notranslate">
+<tbody><tr>
+<th style="width:225px"></th>
+<th style="width:210px"></th>
+<th style="width:1200px"></th>
+</tr>
+<tr>
+<td>August 2023 - Present</td>
+<td><a href="https://www.mdpi.com/journal/mathematics/topic_editors/network_science">Topical Advisory Panel</a></td>
+<td><i><a href="https://www.mdpi.com/journal/mathematics"> Mathematics (MDPI)</a></i>, Section: <i>Network Science</i></td>
+</tr>
+<tr>
+<td>August 2023 - July 2024</td>
+<td>Guest Editor</td>
+<td><i><a href="https://www.mdpi.com/journal/mathematics"> Mathematics (MDPI)</a></i>, Special issue on <i><a href="https://www.mdpi.com/journal/mathematics/special_issues/1657ZCWY37">Dynamical Behaviors in Networked Systems: Analysis & Control</a> </i></td>
+</tr>
+</tbody></table>
+
+
+<h2 style="margin-bottom: 0"><u>Reviewer Activity</u></h2><!-- Refereed Articles From Journals -->
 <ul>
 <li>Physical Review E</li>
 <li>Communications Physics</li>
@@ -166,6 +251,7 @@ ul {	columns: 3;
 <li>Mathematical Reviews</li>
 <li>Chaos, Solitons & Fractals</li>
 <li>Nonlinear Dynamics</li>
+<li>Axioms</li>
 <li>Mathematics</li>
 <li>Indian Journal of Physics</li>
 <li>Frontiers in Physics</li>
@@ -219,6 +305,25 @@ ul {	columns: 3;
 <ol reversed>
 <li>N. Frolov, V. Maksimenko, D. Ghosh, S. Majhi, & <strong>Sarbendu Rakshit</strong>, “<a href = "https://drive.google.com/file/d/1vCQvYg9xVodZ7RTB_YaFcbx2gK7WBuL4/view?usp=sharing">Route to Coherence in a Frequency-Heterogeneous Kuramoto Network</a>”, 2020 4th Scientific School on Dynamics of Complex Networks and their Application in Intellectual Robotics, <strong>IEEE</strong> (2020).</li>
 </ol>
+    </div>
+
+    <div id="Teaching" class="tabcontent" style="display: none;">
+<table class="ws-table-all notranslate">
+<tbody><tr>
+<th style="width:25px"></th>
+<th align="left" style="width:365px">Courses</th>
+<th align="left" style="width:100px">Code</th>
+<th	align="left" style="width:100px"> Session</th>
+<th	align="left" style="width:125px">University</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>Survey of Calculus and Its Applications II</td>
+<td><i>MTH 122</i></td>
+<td>Fall 2023</td>
+<td>SUNY Buffalo</td>
+</tr>
+</tbody></table>
     </div>
 
     <div id="Tutorials" class="tabcontent" style="display: none;">
